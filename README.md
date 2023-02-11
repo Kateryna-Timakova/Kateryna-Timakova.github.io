@@ -1,2 +1,2 @@
-# kateryna-timakova-main.github.io
+# kateryna-timakova.github.io
 My first project
