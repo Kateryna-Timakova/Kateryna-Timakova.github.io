@@ -145,15 +145,24 @@
 
             &_first {
                 background-image: url('./styles/images/Step 1.jpg');
+                background-size: 300px 400px;
+                background-position: center;
+                background-repeat: no-repeat;
             }
 
             &_second {
                 background-image: url('./styles/images/Step 2.jpg');
                 padding: 250px 25px 21px 25px;
+                background-size: 300px 400px;
+                background-position: center;
+                background-repeat: no-repeat;
             }
 
             &_third {
                 background-image: url('./styles/images/Step 1 image.png');
+                background-size: 300px 400px;
+                background-position: center;
+                background-repeat: no-repeat;
             }
 
             &_button {
@@ -668,6 +677,7 @@
                 left: 230px;
                 font-size: 22px;
                 line-height: 27px;
+                letter-spacing: 2.5px;
             }
 
             &_small {
@@ -676,8 +686,26 @@
                 margin-top: 61px;
                 padding: 206px 20px 16px 20px;
 
+                &_first {
+                    background-image: url('./styles/images/Step-1-tablet.png');
+                    background-size: 236px 400px;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                }
+
                 &_second {
+                    background-image: url('./styles/images/Step-2-tablet.png');
+                    background-size: 236px 400px;
+                    background-position: center;
+                    background-repeat: no-repeat;
                     padding: 256px 25px 21px 19px;
+                }
+
+                &_third {
+                    background-image: url('./styles/images/Step-3-tablet.png');
+                    background-size: 236px 400px;
+                    background-position: center;
+                    background-repeat: no-repeat;
                 }
 
                 &_text-big-first,
@@ -711,6 +739,7 @@
         width: 495px;
         height: 625px;
         margin: 94px auto 0;
+
         &__text {
             width: 416px;
             height: 27px;
@@ -805,10 +834,12 @@
                     height: 310px;
                     background-position: -40px 1px;
                 }
-                &_3{
+
+                &_3 {
                     background-position: -20px 1px;
                 }
-                &_4{
+
+                &_4 {
                     background-position: -30px 0;
                 }
 
@@ -981,11 +1012,17 @@
                 &_first {
                     background-image: url('./styles/images/Step-1-mobile.jpg');
                     position: absolute;
+                    background-size: 300px 240px;
+                    background-position: center;
+                    background-repeat: no-repeat;
                 }
 
                 &_second {
                     background-image: url('./styles/images/Step-2-mobile.png');
                     position: absolute;
+                    background-size: 300px 240px;
+                    background-position: center;
+                    background-repeat: no-repeat;
                     top: 250px;
                     padding: 95px 25px 21px 19px;
                 }
@@ -993,6 +1030,9 @@
                 &_third {
                     background-image: url('./styles/images/Step-3-mobile.png');
                     position: absolute;
+                    background-size: 300px 240px;
+                    background-position: center;
+                    background-repeat: no-repeat;
                     top: 500px;
                 }
 
